@@ -1,0 +1,22 @@
+.heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    border: 5px red;
+    border-style: dashed;
+    padding: 1rem;
+    border-radius: 25px;
+}
+.carddiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+}
